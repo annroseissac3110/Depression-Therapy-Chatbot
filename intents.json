@@ -1,0 +1,124 @@
+{
+    "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["Hi", "Hai", "Hey", "Hello", "Hei", "Haai",
+          "Is anyone there?",
+          "What's up?"
+          ],
+          "responses": ["Hey! Welcome to SPAK-depression therapy chatbot. What can I do for you?.","Hey! Welcome to SPAK.",
+          "Hi there, I'm doing well! My name's SPAK, what can I do for you?",
+          "Hey there, my name's SPAK, your mental health friend. How can I help you today?"]
+      },
+      {
+          "tag": "how are you",
+          "patterns": ["How are you?", "How are you doing?"],
+          "responses": ["Hi there, I'm doing well! My name's SPAK, what can I do for you?"]
+      },
+      {
+          "tag": "what do you do",
+          "patterns": [ "What you do?"],
+          "responses": ["Hai, My name's SPAK, your mental health friend. How can I help you today?"]
+      },
+      {
+         "tag": "morning",
+         "patterns": ["Good morning!","Good mrng","Gud mrng","Good Morning"],
+         "responses": ["Hey! Good Morning, Welcome to SPAK-depression therapy chatbot. What can I do for you?."]
+      },
+      {
+         "tag": "evening",
+         "patterns": ["Good evening!","Good evng","Gud evng","Good Evening"],
+         "responses": ["Hey! Good Evening, Welcome to SPAK-depression therapy chatbot. What can I do for you?."]
+      },
+      {
+         "tag": "afternoon",
+         "patterns": ["Good afternoon!", "Good Afternoon", "Gud afternoon"],
+         "responses": ["Hey! Good afternoon, Welcome to SPAK-depression therapy chatbot. What can I do for you?"]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later!", "Goodbye!", "Good Bye!", "Bei"],
+          "responses": ["See you later! Take care!","Have a lovely day! Take care and stay safe!",
+                "Take care of yourself! I'm always here to support you! Feel free to come back at any time!"]
+      },
+      {
+          "tag": "thankyou",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thank u for your help"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure", "You are always welcome!"]
+      },
+      {
+          "tag": "job",
+          "patterns": ["your job?"],
+          "responses": ["Hei, I am a depression therapist named SPAK, I am here to help you. Please tell me about yourself."]
+      },
+      {
+          "tag": "about",
+          "patterns": [ "Who are you?", "What are you here for?", "What can you help me with?", "Are you a real person?", "Tell me about yourself!"],
+          "responses": [
+                "Love that question! My name's SPAK, your mental health friend! Technically, I'm a computer and I've been trained to support you through any of the issues and things that you're going through in life right now. I will support you through your ups and downs.",
+                "Hey! I love that question! My name is SPAK, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well."]
+      },
+      {
+          "tag": "help",
+          "patterns": ["Can you help me?", "I need a help","i need your help", "How can you help me?", "I am in trouble."],
+          "responses": ["Yes, of course I can help you, I am your friend. So please share your feelings."]
+      
+      },
+      {
+          "tag": "problems",
+          "patterns": ["There are many problems in family","I am not happy with my friends"],
+          "responses": ["Life will not be smooth always. So make good social relationships and be happy always."]
+      },
+      {
+          "tag": "anxiety",
+          "patterns": ["I think I have anxiety", "What is anxiety?", "Tell me about anxiety", "Can I have some information about anxiety?", "How do I fix my anxiety?", "How can I overcome my anxiety?", "Can you suggest some tips to overcome anxiety?", "How to resolve anxiety?"],
+          "responses": ["Anxiety is our body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep meditating, staying active and exercising, eating a healthy diet, staying active and working out. Whatever you're feeling is valid."]
+      },
+      {
+          "tag": "depression",
+          "patterns": ["I think I have depression", "I am so depressed", "What is depression?", "Tell me about depression", "Can I have some information about depression?", "How do I fix my depression?", "How can I overcome my depression?", "Can you suggest some tips to overcome depression?", "How to overcome depression?", "How to resolve depression?"],
+          "responses": ["Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities. All of us experience sadness when things aren't great. However, the difference in sadness and depression lies in the duration and magnitude of the problem. The best recommended course of treatment is to talk a therapist or psychiatrist who can help you find the best path for you. Everyone is different and what might work for one person might not work for another one. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out. Whatever you're feeling is valid."]
+      },
+      {
+          "tag": "sad",
+          "patterns": ["I am sad","I am really sad", "How can I overcome my sadness?", "Can you suggest some tips to overcome sadness?"],
+          "responses": ["Sadness is a defence mechanism that serve to protect us from underlying feelings. Occasional sadness often passes quickly, but talking to a friend or family member, or spending time with friends or family may help relieve sadness. Doing things that usually bring happiness may also help to overcome sadness. Create a bond within family and friends. Spend time with loved ones to open up your mind. Thus you can resolve your sadness."]
+      },
+      {
+          "tag": "alone",
+          "patterns": ["My parents got divorced.","I am alone.","I don't have friends."],
+          "responses": ["You are not alone","I am with you always as a best friend. You can approach me whenever you want. I am always glad to see you."]
+      },
+      {
+          "tag": "not happy",
+          "patterns": ["I am not happy","how to be happy ","how to avoid sadness", "Can you suggest some tips to be happy?", "How can I be happy?", "I am unhappy."],
+          "responses": [ "When you find yourself feeling low, crack smile and see what happens.", "Regular exercise can help to reduce stress, anxiety and symptoms of depression while boosting self-esteem and happiness.", "Sleep regularly for 7 hours. It reduces depression and anxiety.", "Eat with mood in mind helps to become happy.", 
+"Take a deep breathe to reduce depression and to become happy.", "Avoid comparing yourself to others.", "Make good social relationships."]
+      },
+      
+      
+     
+      {
+          "tag": "issues",
+          "patterns": ["family issues", "Business failures", "issues", "problems"],
+          "responses": ["Are you sad? No need to worry, I will be always with you as a best friend."]
+      },
+      {
+          "tag": "peace",
+          "patterns": ["I want peace.", "How can I find peace?"],
+          "responses": ["Be active, sleep well and eat well. This will helps to reduce depression and helps to achieve happy."]
+      },
+      {
+          "tag": "happy",
+          "patterns": ["I am happy.", "I am not sad.", "I don't have depression.", "I don't have anxiety."],
+          "responses": ["Amazing!, wish you a happy day.", "WOW, it's amazing", "Amazing and thank you for your participation"]
+      },
+      {
+        "tag": "nothappy",
+        "patterns": ["I am not feeling good"],
+        "responses": ["The following daily habits may help you achieve more happiness in your life.1. Don't smile always. When you find yourself feeling low, crack a smile and see what happens.2. Regular exercise can help reduce stress, feelings of anxiety and symptoms of depression while boosting self-esteem and happiness."]
+    }
+   
+      ]
+  }
+  
